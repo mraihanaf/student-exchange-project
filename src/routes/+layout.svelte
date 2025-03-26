@@ -1,7 +1,7 @@
 <script>
 	import Sidebar from '$lib/Sidebar.svelte';
-	import Footer from '$lib/Footer.svelte';
 	import "../app.css"
+  import Navbar from '$lib/Navbar.svelte';
 	let { children } = $props();
 </script>
 
@@ -13,6 +13,7 @@
 
 	<!-- Main content container -->
 	<div class="flex-1 flex flex-col w-full lg:ml-64 min-h-screen bg-gradient-to-b from-slate-900 to-slate-800">
+		<Navbar></Navbar>
 		<main class="flex flex-col p-4 max-w-full w-full">
 			{@render children()}
 		</main>

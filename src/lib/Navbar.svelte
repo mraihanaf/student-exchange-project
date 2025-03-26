@@ -2,12 +2,11 @@
     import { Navbar, NavBrand, NavLi, NavUl, NavHamburger } from 'flowbite-svelte';
 </script>
 
-<Navbar class="border">
-    <NavHamburger />
-    <NavUl class="flex justify-center items-center">
-        <NavLi href="/">Home</NavLi>
-        <NavLi href="/about">About</NavLi>
-        <NavLi href="/pricing">Pricing</NavLi>
-        <NavLi href="/contact">Contact</NavLi>
+<Navbar class="border lg:hidden border-none bg-transparent" color="dark">
+    <NavHamburger color="dark" class="bg-transparent"/>
+    <NavUl class="flex bg-transparent justify-center">
+        <NavLi href="/" class="">Home</NavLi>
+        <NavLi href="/form" class="">Form</NavLi>
+        <NavLi href="/dashboard">Dashboard</NavLi>
     </NavUl>
 </Navbar>
