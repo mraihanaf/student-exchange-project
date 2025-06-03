@@ -24,10 +24,10 @@
 		"vite": "^6.0.0"
 	},
 	"dependencies": {
-		"@aws-sdk/client-bedrock-runtime": "^3.775.0",
+		"@aws-sdk/client-bedrock-runtime": "^3.808.0",
 		"aws-sdk": "^2.1692.0",
-		"groq-sdk": "^0.17.0",
-		"mongodb": "^6.16.0",
+		"groq-sdk": "^0.21.0",
+		"mongodb": "^6.15.0",
 		"queue": "^7.0.0"
 	}
 }
